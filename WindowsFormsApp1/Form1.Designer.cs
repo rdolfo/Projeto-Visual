@@ -61,7 +61,6 @@
             this.campoCPF = new System.Windows.Forms.MaskedTextBox();
             this.rotuloCPF = new System.Windows.Forms.Label();
             this.btnCarregar = new System.Windows.Forms.Button();
-            this.pictureBoxFoto = new System.Windows.Forms.PictureBox();
             this.rotuloFoto = new System.Windows.Forms.Label();
             this.campoMatricula = new System.Windows.Forms.TextBox();
             this.rotuloMatricula = new System.Windows.Forms.Label();
@@ -72,6 +71,7 @@
             this.campoNome = new System.Windows.Forms.TextBox();
             this.rotuloNome = new System.Windows.Forms.Label();
             this.FileDialogFoto = new System.Windows.Forms.OpenFileDialog();
+            this.pictureBoxFoto = new System.Windows.Forms.PictureBox();
             this.panelCadastro.SuspendLayout();
             this.panelDados.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFoto)).BeginInit();
@@ -89,10 +89,10 @@
             // rotuloCadastro
             // 
             this.rotuloCadastro.AutoSize = true;
-            this.rotuloCadastro.Font = new System.Drawing.Font("Ravie", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rotuloCadastro.Font = new System.Drawing.Font("Arial", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rotuloCadastro.Location = new System.Drawing.Point(9, 16);
             this.rotuloCadastro.Name = "rotuloCadastro";
-            this.rotuloCadastro.Size = new System.Drawing.Size(710, 63);
+            this.rotuloCadastro.Size = new System.Drawing.Size(511, 56);
             this.rotuloCadastro.TabIndex = 0;
             this.rotuloCadastro.Text = "Cadastro de Pessoas";
             // 
@@ -487,17 +487,6 @@
             this.btnCarregar.UseVisualStyleBackColor = true;
             this.btnCarregar.Click += new System.EventHandler(this.btnCarregar_Click);
             // 
-            // pictureBoxFoto
-            // 
-            this.pictureBoxFoto.Image = global::WindowsFormsApp1.Properties.Resources.Stalin;
-            this.pictureBoxFoto.Location = new System.Drawing.Point(660, 38);
-            this.pictureBoxFoto.Name = "pictureBoxFoto";
-            this.pictureBoxFoto.Size = new System.Drawing.Size(261, 317);
-            this.pictureBoxFoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxFoto.TabIndex = 9;
-            this.pictureBoxFoto.TabStop = false;
-            this.pictureBoxFoto.Click += new System.EventHandler(this.pictureBoxFoto_Click);
-            // 
             // rotuloFoto
             // 
             this.rotuloFoto.AutoSize = true;
@@ -592,6 +581,17 @@
             // FileDialogFoto
             // 
             this.FileDialogFoto.FileName = "openFileDialog1";
+            // 
+            // pictureBoxFoto
+            // 
+            this.pictureBoxFoto.Image = global::WindowsFormsApp1.Properties.Resources.d4f;
+            this.pictureBoxFoto.Location = new System.Drawing.Point(660, 38);
+            this.pictureBoxFoto.Name = "pictureBoxFoto";
+            this.pictureBoxFoto.Size = new System.Drawing.Size(261, 317);
+            this.pictureBoxFoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxFoto.TabIndex = 9;
+            this.pictureBoxFoto.TabStop = false;
+            this.pictureBoxFoto.Click += new System.EventHandler(this.pictureBoxFoto_Click);
             // 
             // TelaCadastro
             // 

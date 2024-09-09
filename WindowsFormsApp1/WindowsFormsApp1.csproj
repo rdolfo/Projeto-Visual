@@ -60,6 +60,18 @@
     <Compile Include="TelaFinanceiro.Designer.cs">
       <DependentUpon>TelaFinanceiro.cs</DependentUpon>
     </Compile>
+    <Compile Include="TelaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaPrincipal.Designer.cs">
+      <DependentUpon>TelaPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaTurmas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaTurmas.Designer.cs">
+      <DependentUpon>TelaTurmas.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -75,6 +87,12 @@
     </Compile>
     <EmbeddedResource Include="TelaFinanceiro.resx">
       <DependentUpon>TelaFinanceiro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPrincipal.resx">
+      <DependentUpon>TelaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaTurmas.resx">
+      <DependentUpon>TelaTurmas.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -94,6 +112,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Stalin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d4f.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -71,10 +71,10 @@
             // rotuloFinanceiro
             // 
             this.rotuloFinanceiro.AutoSize = true;
-            this.rotuloFinanceiro.Font = new System.Drawing.Font("Showcard Gothic", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rotuloFinanceiro.Font = new System.Drawing.Font("Arial", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rotuloFinanceiro.Location = new System.Drawing.Point(10, 22);
             this.rotuloFinanceiro.Name = "rotuloFinanceiro";
-            this.rotuloFinanceiro.Size = new System.Drawing.Size(313, 60);
+            this.rotuloFinanceiro.Size = new System.Drawing.Size(266, 56);
             this.rotuloFinanceiro.TabIndex = 0;
             this.rotuloFinanceiro.Text = "Financeiro";
             // 
